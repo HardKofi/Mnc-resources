@@ -18,8 +18,7 @@ header div{
 
 a:visited{
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 body{
     margin-top: 0px;
@@ -41,6 +40,7 @@ table{
     column-gap: 10px;
     border-collapse: collapse;
     border-radius: 10px;
+    
 }
 tr:nth-child(odd){background-color: #f6f6f7
 }
@@ -58,7 +58,7 @@ th,td{
 }
 /*time row*/
 tr:nth-child(1){
-    color: #706f77;
+    color: #343338;
     padding-right: 100px;
     background-color: #f6f6f7;
     font-size: 20px;font-weight: 700; text-align: center;
@@ -67,8 +67,8 @@ tr:nth-child(1){
 }
 /*days columb*/
 th:nth-child(1){color: #343338;background-color: #f6f6f7; }
-tr:hover{background-color: #dcdcdd;}
-
+tr:hover{background-color: #e7e7e7;}
+a{text-decoration: none;}
 code{
     padding: 5px 10px;
     color: white;
@@ -87,6 +87,9 @@ code{
 syl{
     font-size: 40px;
     padding-bottom: 20px;
+}
+button{
+    height:70px;
 }
 .sma441{ background-color: red; }
 .scs201{ background-color: #FFBF00; }
@@ -107,25 +110,24 @@ syl{
     border-radius: 10px;
     box-shadow: rgb(80, 76, 94) 0 0 5px;
     border: 1.5px solid white;
-  }
+}
 .collapsible:hover {
     opacity: 0.6;
 color: white;
 }
   
-  .collapsible:after {
-    
-    content: '\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;  
-  }
-  
-  .active:after {
-      
-    content: "\2212";
-  }
+.collapsible:after {
+
+content: '\002B';
+color: white;
+font-weight: bold;
+float: right;
+margin-left: 5px;  
+}
+
+.active:after {
+content: "\2212";
+}
 cname{
     font-size: 17px;
     padding-top: 5px;
@@ -142,6 +144,7 @@ prof{
     overflow: hidden;
     transition: max-height 0.13s ease-out;
     background-color: #f1f1f1;
+    text-align: left;
     
   }
 button{
